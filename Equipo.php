@@ -2,6 +2,7 @@
 class Equipo
 {
   private array $jugadores = [];
+  private int $valorRojas = 2;
 
   public function anadirJugador(Jugador $jugador): void
   {
@@ -25,7 +26,7 @@ class Equipo
     foreach ($this->jugadores as $jugador) {
       $tarjetasJugador = 0;
       $tarjetasJugador += $jugador->getAmarillas();
-      $tarjetasJugador += $jugador->getRojas();
+      $tarjetasJugador += $jugador->getRojas() * $this->valorRojas;
       if ($tarjetasJugador > $tarjetas) {
         $jugadorMasTarjetas = $jugador;
         $tarjetas = $tarjetasJugador;
