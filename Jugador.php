@@ -1,11 +1,6 @@
 <?php
-enum Posicion
-{
-  case Portero;
-  case Defensa;
-  case Centrocampista;
-  case Delantero;
-}
+require_once "Posicion.php";
+
 class Jugador
 {
   private string $nombre;
