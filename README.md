@@ -12,7 +12,7 @@
   - Otra que devuelva jugadores de la categoria sub-21.
   
   ## 🛠 Tecnologies  
-  - Frontend: PHP
+  - Backend: PHP
   
   ## 🚀 Instal·lació  
   1. Clonar el repositori: `git clone https://github.com/gregoridelrio/Prova-de-nivell-I-php.git`  
