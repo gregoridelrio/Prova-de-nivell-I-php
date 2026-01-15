@@ -2,10 +2,10 @@
 require_once "Jugador.php";
 require_once "Equipo.php";
 
-$jugador1 = new Jugador("Rodigo", 20, Posicion::Delantero, 5, 1, 1);
-$jugador2 = new Jugador("Messi", 20, Posicion::Centrocampista, 30, 0, 4);
-$jugador3 = new Jugador("Ronaldinho", 40, Posicion::Delantero, 15, 4, 5);
-$jugador4 = new Jugador("Puyol", 41, Posicion::Defensa, 0, 15, 15);
+$jugador1 = new Jugador("Rodigo", 20, Posicion::Delantero, 5, 0, 0);
+$jugador2 = new Jugador("Messi", 20, Posicion::Centrocampista, 30, 0, 0);
+$jugador3 = new Jugador("Ronaldinho", 40, Posicion::Delantero, 15, 3, 0);
+$jugador4 = new Jugador("Puyol", 41, Posicion::Defensa, 0, 0, 2);
 
 $equipo = new Equipo();
 $equipo->anadirJugador($jugador1);
